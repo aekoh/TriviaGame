@@ -1,42 +1,35 @@
+
 <!DOCTYPE html>
+<html>
 
-<html lang="en-us">
-
-  <head>
-
-    <meta charset="UTF-8">
-    <title>TRIVIA GAME</title>
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-   
+<head>
+    <title>Totally Trivia Game</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+       
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
 </head>
-  <body>
-      <div class="grid">
-          <div id="quiz">
-              <h1>Quiz</h1>
-              <hr style="margin-bottom: 20px">
 
-              <p id="question"></p>
+<body>
+    <!--wrapper will include everything in the body  -->
+    <div id="wrapper">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 id="title">Totally Trivia</h1>
+        <br>
+        <!--subwrapper will replace the contents when start button is clicked -->
+        <div id="subwrapper">
+            <button id="start">Start</button>
+        </div>
+    </div>
 
-              <div class="buttons">
-                  <button id="b0"><span id="option0"></span></button>
-                  <button id="b1"><span id="option1"></span></button>
-                  <button id="b2"><span id="option2"></span></button>
-                  <button id="b3"><span id="option3"></span></button>
-              </div>
-
-              <hr style="margin-top: 50px">
-              <footer>
-                  <p id="progress">Question x of y.</p>
-              </footer>
-          </div>
-      </div>
-
-     
-     
-  </body>
-
-  <script src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+</body>
 
 </html>
-
 
